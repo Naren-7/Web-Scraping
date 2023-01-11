@@ -26,6 +26,11 @@ Para utilizar este proyecto, siga los siguientes pasos:
 3. Ejecute el siguiente comando para iniciar la extracción de datos:
 
 ```bash
+scrapy runspider script_name.py -o file_name.csv -t csv
+
+```
+
+```bash
 scrapy runspider script_name.py -o file_name.csv -t csv --set CLOSESPIDER_ITEMCOUNT=number  
 
 ```
