@@ -1,0 +1,9 @@
+name: visualization_and_manipulation
+channels:
+  - defaults
+dependencies:
+  - selenium
+  - scrapy
+  - black
+  - beautifulsoup4
+prefix: /home/naren/anaconda3/envs/visualization_and_manipulation
