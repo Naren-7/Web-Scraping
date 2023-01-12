@@ -14,7 +14,7 @@ Este proyecto tiene como objetivo mostrar cómo utilizar las tecnologías Scrapy
 pip install scrapy selenium beautifulsoup4
 
 ```
-2. Puedes usar un nuevo en ambiente en conda con lo requeimientos.
+2. Puedes usar un nuevo ambiente local con `Conda`, el archivo **[requeimientos.yml](https://github.com/Naren-7/Web-Scraping/blob/main/requerimient.yml)** está en el repositorio.
 ```
 conda create --name mi_nuevo_entorno --file requerimient.yml
 ```
@@ -24,6 +24,11 @@ Para utilizar este proyecto, siga los siguientes pasos:
 1. Abra una terminal o línea de comandos.
 2. Navegue hasta la carpeta del proyecto en su sistema.
 3. Ejecute el siguiente comando para iniciar la extracción de datos:
+
+```bash
+scrapy runspider script_name.py -o file_name.csv -t csv
+
+```
 
 ```bash
 scrapy runspider script_name.py -o file_name.csv -t csv --set CLOSESPIDER_ITEMCOUNT=number  
